@@ -1,44 +1,20 @@
+# The Project
 
-________________________
-# Module 2 Summative Lab
+Using the database containing information about soccer teams and the matches they've played in the file database.sqlite, I queried the SQL database and calculated various statistics including the following information:
 
-    Student Name: Itua Etiobhio
+The name of the team
+The total number of goals scored by the team during the 2011 season
+The total number of wins the team earned during the 2011 season
+A histogram visualization of the team's wins and losses for the 2011 season (store the visualization directly by assigning it to a variable)
+The team's win percentage on days where it was raining during games in the 2011 season.
 
-## Task Tracker
+For the last bullet point, DarkSky API was used to get the historical weather data for the days games were played on.
 
-Modelled on a simple [Kanban](https://www.atlassian.com/agile/kanban) process workflow.
+# Summary of files
+M2.ipynb: Technical notebook that includes
 
-| TO DO | DOING | BLOCKED | DONE |
-|-------|-------|---------|------|
-||||1|
-||||2|
-||||3|
-||||4|
-||||5|
-||||6|
-||||7|
-|8||||
-|9||||
-|10||||
-|11||||
-|12||||
-|13||||
-|14||||
-
-Your tasks:
- 1. Fork this repository. **[Checkpoint 1]**
- 2. Change student name in `README.md`.
- 3. [Download](https://www.kaggle.com/laudanum/footballdelphi/download) the `Football Delphi` database.
- 4. Examine the data dictionary on [kaggle](https://www.kaggle.com/laudanum/footballdelphi). **[Checkpoint 2]**
- 6. Explore and test the DarkSkyAPI [documentation](https://darksky.net/dev/docs).
- 7. Subset the `Football Delphi` dataset to the given specification.
- 8. Search and merge historical weather with corresponding match data.
- 9. Construct your OOP Classes. **[Checkpoint 3]**
- 10. Refactor Prototyped Code into OOP Classes.
- 11. Create MongoDB schemas.
- 12. Store processed data on Mongo DB. **[Checkpoint 4]**
- 13. Refactor Code.
- 14. Comment Code.
- 15. Delivery. **[Checkpoint 5]**
-
-_Note_: Be careful not to hit your DarkSky API limit by using small samples.
+Asuumption checks
+SQL Query 
+Visualisation of EDA
+Data manipulation
+API Query
